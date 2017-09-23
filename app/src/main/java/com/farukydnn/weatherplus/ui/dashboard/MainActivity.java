@@ -1,14 +1,14 @@
-package com.farukydnn.weatherplus.ui;
+package com.farukydnn.weatherplus.ui.dashboard;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
+import com.farukydnn.weatherplus.core.ui.BaseActivity;
 import com.farukydnn.weatherplus.R;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private final static String TAG = MainActivity.class.getSimpleName();
 

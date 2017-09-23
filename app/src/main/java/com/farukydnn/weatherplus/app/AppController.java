@@ -8,7 +8,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
-import com.farukydnn.weatherplus.utils.LruBitmapCache;
+import com.farukydnn.weatherplus.core.network.LruBitmapCache;
 
 public class AppController extends Application {
 

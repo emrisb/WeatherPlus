@@ -1,4 +1,4 @@
-package com.farukydnn.weatherplus.utils;
+package com.farukydnn.weatherplus.core.network;
 
 
 import android.graphics.Bitmap;

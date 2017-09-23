@@ -1,9 +1,15 @@
-package com.farukydnn.weatherplus.model;
+package com.farukydnn.weatherplus.core.network.response;
 
+import com.farukydnn.weatherplus.core.network.dto.Clouds;
+import com.farukydnn.weatherplus.core.network.dto.Coord;
+import com.farukydnn.weatherplus.core.network.dto.Main;
+import com.farukydnn.weatherplus.core.network.dto.Sys;
+import com.farukydnn.weatherplus.core.network.dto.Weather;
+import com.farukydnn.weatherplus.core.network.dto.Wind;
 import com.google.gson.annotations.SerializedName;
 
 
-public class SingleCity {
+public class SingleCity extends BaseResponse {
 
     @SerializedName("coord")
     private Coord coord;

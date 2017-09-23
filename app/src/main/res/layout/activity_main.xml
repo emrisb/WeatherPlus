@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.farukydnn.weatherplus.ui.MainActivity">
+    tools:context="com.farukydnn.weatherplus.ui.dashboard.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/cityListFragment"
-        android:name="com.farukydnn.weatherplus.fragments.CityListFragment"
+        android:name="com.farukydnn.weatherplus.ui.dashboard.CityListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
